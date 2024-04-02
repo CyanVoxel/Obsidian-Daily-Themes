@@ -4,10 +4,10 @@ tags:
   - Daily
 cssclasses:
   - daily
-  - <% tp.date.now("dddd").toLowerCase() %>
+  - <% tp.date.now("dddd", 0, tp.file.title, "YYYYMMDD").toLowerCase() %>
 ---
 # DAILY NOTE
-## <%tp.date.now("dddd, MMMM Do, YYYY")%>
+## <% tp.date.now("dddd, MMMM Do, YYYY", 0, tp.file.title, "YYYYMMDD") %>
 ***
 ### Journal
 #### TIME
