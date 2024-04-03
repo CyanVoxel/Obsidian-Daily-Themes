@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-                     Daily Note Themes by CyanVoxel v1.0.0
+                     Daily Note Themes by CyanVoxel v1.0.3
 
 These are a set of 7 main CSS classes that can be used to apply individual color
 schemes to daily notes for each day of the week.
@@ -87,14 +87,14 @@ change or remove those font-family lines from this snippet.
   color: var(--primary);
   text-align: center;
   font-size: 60px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   padding: 0 !important;
 }
 .daily :is(h2, .HyperMD-header.HyperMD-header-2) {
   color: var(--highlight);
   text-align: center;
   font-size: 30px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   font-style: italic;
   padding: 0 !important;
 }
@@ -103,14 +103,14 @@ change or remove those font-family lines from this snippet.
   text-align: center;
 
   font-size: 32px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   padding-top: 0;
 }
 .daily :is(h4, .HyperMD-header.HyperMD-header-4) {
   background-color: var(--primary);
   color: var(--dark);
   /* border-color: var(--primary); */
-  /* font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", monospace; */
+  /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */
   font-weight: 900;
   margin-bottom: 0;
   padding-top: 0;
