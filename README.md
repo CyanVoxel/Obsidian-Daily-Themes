@@ -1,4 +1,4 @@
-# Obsidian-Daily-Themes v1.0.3
+# Obsidian-Daily-Themes v1.0.4
 ## A Series of Daily Theme CSS Snippets for Obsidian.
 
 ![](title.png)
