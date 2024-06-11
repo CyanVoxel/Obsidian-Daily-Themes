@@ -115,7 +115,7 @@ change or remove those font-family lines from this snippet.
   margin-bottom: 0;
   padding-top: 0;
   font-size: 20px;
-  width: fit-content;
+  width: fit-content !important;
   padding-left: 6px;
   padding-right: 6px;
   /* border: solid; */
