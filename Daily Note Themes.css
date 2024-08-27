@@ -127,7 +127,7 @@ change or remove those font-family lines from this snippet.
   margin-top: 4px;
   margin-bottom: 4px;
 }
-.daily :is(a:link, .cm-hmd-internal-link) {
+.daily :is(a:link, .cm-hmd-internal-link):not(.tag) {
   color: var(--primary);
 }
 .daily :is(a:hover, .cm-hmd-internal-link:hover) {
